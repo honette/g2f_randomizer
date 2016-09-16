@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>DC MAKER v2</title>
+<script>
+function $(id) {
+  return document.querySelector(id);
+}
+
+var numOfFrame = 206;
+
+var fileID = 0;
+var randomModifiers = null;
+
+function handleDownload(){
+  randomModifiers = new Array();
+  var source        = propatiesLoader( "default_01.duf" );
+  var propatiesBody = propatiesLoader( "body_morph.duf" );
+  var propatiesFace = propatiesLoader( "face_morph.duf" );
+
+  source = randomizePropaties( source, propatiesBody );
+  source = randomizePropaties( source, propatiesFace );
+
+  //make animation
+  var _animation = new Array();
+  for ( j=0; j<randomModifiers.length; j++ ) {
+    var _obj = { 
+      url : "Genesis2Female:" + randomModifiers[j].url + "?value/value",
+      keys: []
+    };
+    _obj.keys[0] = [0, 0];
+    for ( i=0; i<=numOfFrame; i++ ) {
+      var _per = i % 3;
+      var _frame = 0;
+      switch( i % 3 ) {
+        case 1:
+          _frame = Math.floor(i/3) / 10 + 0.03333333;
+          break;
+        case 2:
+          _frame = Math.floor(i/3) / 10 + 0.06666667;
+          break;
+        case 0:
+          _frame = Math.floor(i/3) / 10;
+          break;
+      }
+      _obj.keys[i] = [_frame, makeRandomValue( randomModifiers[j] )];
+    }
+    _animation[j] = _obj;
+  }
+  var _cooking = JSON.parse( source );
+  _cooking.scene.animations = _animation;
+  source = JSON.stringify(_cooking, null, "\t");
+
+  var blob = new Blob( [ source ], { "type" : "text/plain" });
+  var url = window.URL.createObjectURL(blob);
+  $('#download').download = "random_" + fileID + ".duf";
+  $('#download').href = url;
+
+  fileID++;
+}
+
+function propatiesLoader( _filename ) {
+  var req = new XMLHttpRequest();
+  req.open("get", _filename, false);
+  req.send(null);
+  return req.responseText;
+}
+
+function randomizePropaties( _source, _textPropaties ) {
+  var _seasoning = JSON.parse( _textPropaties );
+  var _cooking = JSON.parse( _source );
+  var morphList = new Array();
+
+  _cooking.asset_info.modified = Date();
+
+  for ( var i=0; i<_cooking.scene.modifiers.length; i++ ) {
+    morphList[ _cooking.scene.modifiers[i].id ] = 1;
+  }
+
+  for ( var i=0; i<_seasoning.scene.modifiers.length; i++ ) {
+    if ( ! morphList[ _seasoning.scene.modifiers[i].id ] ) {
+      randomModifiers.push( copyModifier( _seasoning.scene.modifiers[i] ) );
+    }
+  }
+
+  return JSON.stringify(_cooking, null, "\t");
+}
+
+function copyModifier( _modifier ) {
+  var _channel = {
+    "id" : "value",
+    "type" : "float",
+    "name" : "Value",
+    "value" : _modifier.channel.value,
+    "current_value" : _modifier.channel.current_value,
+    "min" : (_modifier.channel.min)?_modifier.channel.min:0,
+    "probability" : (_modifier.channel.probability)?_modifier.channel.probability:1,
+  }
+  var obj = {
+    "id" : _modifier.id,
+    "url" : _modifier.url,
+    "parent" : _modifier.parent,
+    "channel" : _channel
+  }
+  return obj;
+}
+
+function random( _min, _max ) {
+  return Math.floor( Math.random() * ( _max - _min + 1 ) ) + _min;
+}
+
+function makeRandomValue( _modifier ) {
+  var _probability = 1.00;
+  if ( _modifier.channel.probability ) {
+    _probability = _modifier.channel.probability;
+  } 
+
+  if ( random(0, 100)/100 <= _probability ) { 
+    var _min = 0;
+    if ( _modifier.channel.min ) {
+      _min = _modifier.channel.min;
+    }
+    var _max = _modifier.channel.value;
+    var _value = 0;
+    if ( _max > 0 ) {
+      _value = random( _min*100, Math.round( _max*100 ) ) / 100;
+    } else {
+      _value = random( Math.round( _max*100 ), _min*100 ) / 100;
+    }
+
+  } else {
+    _value = 0;
+  }
+
+  return _value;
+}
+
+</script>
+</head>
+<body>
+  <a id="download" href="#" download="random_.duf" onclick="handleDownload()">download</a><br/>
+</body>
+</html>

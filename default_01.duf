@@ -1,0 +1,201 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/People/Genesis%202%20Female/Characters/%21Original/Custom/default_00.duf",
+		"type" : "character",
+		"contributor" : {
+			"author" : "Yasuhiro Kojima",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2016-09-02T16:58:45Z"
+	},
+	"scene" : {
+		"nodes" : [
+			{
+				"id" : "Genesis2Female",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#GenesisFemale",
+				"name" : "Genesis2Female",
+				"label" : "Genesis 2 Female",
+				"geometries" : [
+					{
+						"id" : "GenesisFemale",
+						"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#GenesisFemale-1",
+						"name" : "GenesisFemale",
+						"label" : "shape",
+						"type" : "subdivision_surface",
+						"current_subdivision_level" : 1,
+						"edge_interpolation_mode" : "edges_only",
+						"extra" : [
+							{
+								"type" : "studio_geometry_channels",
+								"channels" : [
+									{
+										"channel" : {
+											"id" : "SubDRenderLevel",
+											"type" : "int",
+											"current_value" : 0,
+											"max" : 5
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		],
+		"modifiers" : [
+			{
+				"id" : "PBMTrapsSize",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/DAZ%203D/Evolution%20Body/PBMTrapsSize.dsf#PBMTrapsSize",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : -0.25,
+					"current_value" : -0.25
+				}
+			},
+			{
+				"id" : "PBMThighsSize",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/DAZ%203D/Evolution%20Body/PBMThighsSize.dsf#PBMThighsSize",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : -0.3,
+					"current_value" : -0.3
+				}
+			},
+			{
+				"id" : "PBMShinsSize",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/DAZ%203D/Evolution%20Body/PBMShinsSize.dsf#PBMShinsSize",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : 0.2,
+					"current_value" : 0.2
+				}
+			},
+			{
+				"id" : "PBMNavel",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/DAZ%203D/Base/PBMNavel.dsf#PBMNavel",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : 1,
+					"current_value" : 1
+				}
+			},
+			{
+				"id" : "G1_UAbdomen Width",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/D3D%20Gen%20X/Genesis/G1_UAbdomen%20Width.dsf#G1_UAbdomen%20Width",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : -0.4,
+					"current_value" : -0.4
+				}
+			},
+			{
+				"id" : "G1_Hip Shape4",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/D3D%20Gen%20X/Genesis/G1_Hip%20Shape4.dsf#G1_Hip%20Shape4",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : -0.4,
+					"current_value" : -0.4
+				}
+			},
+			{
+				"id" : "G1_BF_ChestAreaUp",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/D3D%20Gen%20X/Genesis/G1_BF_ChestAreaUp.dsf#G1_BF_ChestAreaUp",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : 0.7,
+					"current_value" : 0.7
+				}
+			},
+			{
+				"id" : "SkinBinding",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#SkinBinding",
+				"parent" : "#Genesis2Female"
+			},
+			{
+				"id" : "SCLChestDepth",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/DAZ%203D/Evolution%20Body/SCLChestDepth.dsf#SCLChestDepth",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "SCLChestDepth",
+					"value" : -0.2,
+					"current_value" : -0.2
+				}
+			},
+			{
+				"id" : "SCLArmsLength",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/DAZ%203D/Evolution%20Body/SCLArmsLength.dsf#SCLArmsLength",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "SCLArmsLength",
+					"value" : -0.2964824,
+					"current_value" : -0.2964824
+				}
+			},
+			{
+				"id" : "SCLPropagatingHead",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/DAZ%203D/Base/SCLPropagatingHead.dsf#SCLPropagatingHead",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "SCLPropagatingHead",
+					"value" : -0.06,
+					"current_value" : -0.06
+				}
+			},
+			{
+				"id" : "SCLPropagatingHand",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/DAZ%203D/Base/SCLPropagatingHand.dsf#SCLHandPropagating",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "SCLPropagatingHand",
+					"value" : -0.2,
+					"current_value" : -0.2
+				}
+			},
+			{
+				"id" : "SCLPropagatingFoot",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/DAZ%203D/Base/SCLPropagatingFoot.dsf#SCLPropagatingFoot",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "SCLPropagatingFoot",
+					"value" : -0.2,
+					"current_value" : -0.2
+				}
+			}
+		]
+	}
+}

@@ -1,0 +1,2972 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/People/Genesis%202%20Female/Characters/%21Original/Custom/face_morph.duf",
+		"type" : "character",
+		"contributor" : {
+			"author" : "Yasuhiro Kojima",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2016-09-02T17:23:46Z"
+	},
+	"scene" : {
+		"nodes" : [
+			{
+				"id" : "Genesis2Female",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#GenesisFemale",
+				"name" : "Genesis2Female",
+				"label" : "Genesis 2 Female",
+				"geometries" : [
+					{
+						"id" : "GenesisFemale",
+						"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#GenesisFemale-1",
+						"name" : "GenesisFemale",
+						"label" : "shape",
+						"type" : "subdivision_surface",
+						"current_subdivision_level" : 1,
+						"edge_interpolation_mode" : "edges_only",
+						"extra" : [
+							{
+								"type" : "studio_geometry_channels",
+								"channels" : [
+									{
+										"channel" : {
+											"id" : "SubDRenderLevel",
+											"type" : "int",
+											"current_value" : 0,
+											"max" : 5
+										}
+									}
+								]
+							}
+						]
+					}
+				],
+				"preview" : {
+					"type" : "figure",
+					"oriented_box" : {
+						"min" : [ -75.348, 0.319, -13.249 ],
+						"max" : [ 75.349, 179.17, 18.516 ]
+					},
+					"center_point" : [ 0, 0, 0 ],
+					"end_point" : [ 0.160443, 103.876, 0 ],
+					"rotation_order" : "YXZ"
+				}
+			},
+			{
+				"id" : "hip",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#hip",
+				"name" : "hip",
+				"label" : "Hip",
+				"parent" : "#Genesis2Female",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -5.416e-05, 103.1193, -0.1602125 ],
+					"end_point" : [ 0.00010356, 87.52448, -0.1312479 ],
+					"rotation_order" : "YZX"
+				}
+			},
+			{
+				"id" : "pelvis",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#pelvis",
+				"name" : "pelvis",
+				"label" : "Pelvis",
+				"parent" : "#hip",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -17.346, -18.32, -14.574 ],
+						"max" : [ 17.347, 2.055, 9.445 ]
+					},
+					"center_point" : [ -0.00015188, 104.9442, 1.475638 ],
+					"end_point" : [ 7.32e-06, 86.78704, 0.9212826 ],
+					"rotation_order" : "YZX"
+				}
+			},
+			{
+				"id" : "lThigh",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#lThigh",
+				"name" : "lThigh",
+				"label" : "Left Thigh",
+				"parent" : "#pelvis",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -8.283, -42.12, -12.866 ],
+						"max" : [ 9.059, -0.601, 10.167 ]
+					},
+					"center_point" : [ 8.565985, 95.15301, -0.5021634 ],
+					"end_point" : [ 9.955646, 51.74955, 0.03543555 ],
+					"rotation_order" : "YZX"
+				}
+			},
+			{
+				"id" : "lShin",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#lShin",
+				"name" : "lShin",
+				"label" : "Left Shin",
+				"parent" : "#lThigh",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -5.598, -39.474, -8.9 ],
+						"max" : [ 6.735, 3.031, 5.553 ]
+					},
+					"center_point" : [ 9.955646, 51.74955, -0.09458186 ],
+					"end_point" : [ 10.80601, 8.018873, -2.72933 ],
+					"rotation_order" : "YZX"
+				}
+			},
+			{
+				"id" : "lFoot",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#lFoot",
+				"name" : "lFoot",
+				"label" : "Left Foot",
+				"parent" : "#lShin",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -4.247, -6.587, -6.726 ],
+						"max" : [ 4.504, 8.495, 12.409 ]
+					},
+					"center_point" : [ 10.93943, 5.922204, -3.115847 ],
+					"end_point" : [ 13.75767, 2.168052, 8.330508 ],
+					"rotation_order" : "ZYX"
+				}
+			},
+			{
+				"id" : "lToe",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#lToe",
+				"name" : "lToe",
+				"label" : "Left Toes",
+				"parent" : "#lFoot",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -4.493, -2.154, -2.495 ],
+						"max" : [ 4.487, 2.796, 6.252 ]
+					},
+					"center_point" : [ 14.10531, 1.396699, 8.519927 ],
+					"end_point" : [ 15.60652, 0.2412124, 13.9735 ],
+					"rotation_order" : "ZYX"
+				}
+			},
+			{
+				"id" : "lBigToe",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#lBigToe",
+				"name" : "lBigToe",
+				"label" : "Left Big Toe",
+				"parent" : "#lToe",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 11.55096, 1.754496, 10.77831 ],
+					"end_point" : [ 13.19173, 0.2921603, 15.25544 ],
+					"rotation_order" : "ZYX"
+				}
+			},
+			{
+				"id" : "lSmallToe1",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#lSmallToe1",
+				"name" : "lSmallToe1",
+				"label" : "Left Small Toe 1",
+				"parent" : "#lToe",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 13.76963, 2.28383, 10.54175 ],
+					"end_point" : [ 15.14265, 0.6067872, 14.47354 ],
+					"rotation_order" : "ZYX"
+				}
+			},
+			{
+				"id" : "lSmallToe2",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#lSmallToe2",
+				"name" : "lSmallToe2",
+				"label" : "Left Small Toe 2",
+				"parent" : "#lToe",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 15.29055, 2.176981, 10.15395 ],
+					"end_point" : [ 16.30103, 0.4401329, 13.56637 ],
+					"rotation_order" : "ZYX"
+				}
+			},
+			{
+				"id" : "lSmallToe3",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#lSmallToe3",
+				"name" : "lSmallToe3",
+				"label" : "Left Small Toe 3",
+				"parent" : "#lToe",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 16.27177, 1.805539, 9.428638 ],
+					"end_point" : [ 17.079, 0.2848125, 12.00743 ],
+					"rotation_order" : "ZYX"
+				}
+			},
+			{
+				"id" : "lSmallToe4",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#lSmallToe4",
+				"name" : "lSmallToe4",
+				"label" : "Left Small Toe 4",
+				"parent" : "#lToe",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 17.68635, 1.454727, 8.557932 ],
+					"end_point" : [ 18.07788, 0.2143738, 10.57314 ],
+					"rotation_order" : "ZYX"
+				}
+			},
+			{
+				"id" : "rThigh",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#rThigh",
+				"name" : "rThigh",
+				"label" : "Right Thigh",
+				"parent" : "#pelvis",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -9.059, -42.121, -12.865 ],
+						"max" : [ 8.283, -0.602, 10.168 ]
+					},
+					"center_point" : [ -8.564688, 95.15402, -0.5031388 ],
+					"end_point" : [ -9.9557, 51.75037, 0.03529307 ],
+					"rotation_order" : "YZX"
+				}
+			},
+			{
+				"id" : "rShin",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#rShin",
+				"name" : "rShin",
+				"label" : "Right Shin",
+				"parent" : "#rThigh",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -6.734, -39.475, -8.902 ],
+						"max" : [ 5.599, 3.03, 5.552 ]
+					},
+					"center_point" : [ -9.9557, 51.75037, -0.09295514 ],
+					"end_point" : [ -10.80569, 8.019551, -2.729261 ],
+					"rotation_order" : "YZX"
+				}
+			},
+			{
+				"id" : "rFoot",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#rFoot",
+				"name" : "rFoot",
+				"label" : "Right Foot",
+				"parent" : "#rShin",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -4.503, -6.586, -6.726 ],
+						"max" : [ 4.248, 8.495, 12.408 ]
+					},
+					"center_point" : [ -10.93993, 5.921377, -3.115744 ],
+					"end_point" : [ -13.75763, 2.168164, 8.330395 ],
+					"rotation_order" : "ZYX"
+				}
+			},
+			{
+				"id" : "rToe",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#rToe",
+				"name" : "rToe",
+				"label" : "Right Toes",
+				"parent" : "#rFoot",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -4.486, -2.154, -2.495 ],
+						"max" : [ 4.494, 2.796, 6.252 ]
+					},
+					"center_point" : [ -14.10527, 1.396702, 8.51995 ],
+					"end_point" : [ -15.60656, 0.241162, 13.97354 ],
+					"rotation_order" : "ZYX"
+				}
+			},
+			{
+				"id" : "rBigToe",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#rBigToe",
+				"name" : "rBigToe",
+				"label" : "Right Big Toe",
+				"parent" : "#rToe",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -11.55077, 1.754826, 10.77829 ],
+					"end_point" : [ -13.19171, 0.292053, 15.25547 ],
+					"rotation_order" : "ZYX"
+				}
+			},
+			{
+				"id" : "rSmallToe1",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#rSmallToe1",
+				"name" : "rSmallToe1",
+				"label" : "Right Small Toe 1",
+				"parent" : "#rToe",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -13.76963, 2.28383, 10.54175 ],
+					"end_point" : [ -15.14265, 0.6067872, 14.47354 ],
+					"rotation_order" : "ZYX"
+				}
+			},
+			{
+				"id" : "rSmallToe2",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#rSmallToe2",
+				"name" : "rSmallToe2",
+				"label" : "Right Small Toe 2",
+				"parent" : "#rToe",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -15.29055, 2.176981, 10.15395 ],
+					"end_point" : [ -16.30103, 0.4401329, 13.56637 ],
+					"rotation_order" : "ZYX"
+				}
+			},
+			{
+				"id" : "rSmallToe3",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#rSmallToe3",
+				"name" : "rSmallToe3",
+				"label" : "Right Small Toe 3",
+				"parent" : "#rToe",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -16.27177, 1.805539, 9.428638 ],
+					"end_point" : [ -17.079, 0.2848125, 12.00743 ],
+					"rotation_order" : "ZYX"
+				}
+			},
+			{
+				"id" : "rSmallToe4",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#rSmallToe4",
+				"name" : "rSmallToe4",
+				"label" : "Right Small Toe 4",
+				"parent" : "#rToe",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -17.68635, 1.454727, 8.557932 ],
+					"end_point" : [ -18.07788, 0.2143738, 10.57314 ],
+					"rotation_order" : "ZYX"
+				}
+			},
+			{
+				"id" : "abdomen",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#abdomen",
+				"name" : "abdomen",
+				"label" : "Abdomen",
+				"parent" : "#hip",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -13.975, 0.821, -5.957 ],
+						"max" : [ 13.976, 12.925, 13.07 ]
+					},
+					"center_point" : [ -5.932e-05, 102.4899, -1.957466 ],
+					"end_point" : [ -0.00085388, 111.6389, -0.9693844 ],
+					"rotation_order" : "YZX"
+				}
+			},
+			{
+				"id" : "abdomen2",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#abdomen2",
+				"name" : "abdomen2",
+				"label" : "Abdomen 2",
+				"parent" : "#abdomen",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -12.924, -1.45, -4.748 ],
+						"max" : [ 12.927, 19.846, 15.066 ]
+					},
+					"center_point" : [ -0.00085388, 111.9841, -0.9747645 ],
+					"end_point" : [ -0.0007868001, 124.1203, -3.479149 ],
+					"rotation_order" : "YZX"
+				}
+			},
+			{
+				"id" : "chest",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#chest",
+				"name" : "chest",
+				"label" : "Chest",
+				"parent" : "#abdomen2",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -14.886, 0.123, -9.457 ],
+						"max" : [ 14.888, 24.592, 14.298 ]
+					},
+					"center_point" : [ -0.0007868001, 124.2139, -2.815608 ],
+					"end_point" : [ -8.08e-05, 150.8154, -4.257739 ],
+					"rotation_order" : "YZX"
+				}
+			},
+			{
+				"id" : "neck",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#neck",
+				"name" : "neck",
+				"label" : "Neck",
+				"parent" : "#chest",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -9.087, -5.702, -6.412 ],
+						"max" : [ 9.087, 9.785, 6.388 ]
+					},
+					"center_point" : [ 0.00083268, 150.6566, -3.944664 ],
+					"end_point" : [ 0.00026316, 159.9761, -2.036001 ],
+					"rotation_order" : "YZX"
+				}
+			},
+			{
+				"id" : "head",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#head",
+				"name" : "head",
+				"label" : "Head",
+				"parent" : "#neck",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -10.375, -5.78, -9.291 ],
+						"max" : [ 10.376, 20.208, 13.997 ]
+					},
+					"center_point" : [ 0.00026316, 159.5521, -2.557891 ],
+					"end_point" : [ 2.084e-05, 178.8041, -1.749442 ],
+					"rotation_order" : "YZX"
+				}
+			},
+			{
+				"id" : "rEye",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#rEye",
+				"name" : "rEye",
+				"label" : "Right Eye",
+				"parent" : "#head",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -1.302, -1.573, -0.807 ],
+						"max" : [ 1.668, 1.635, 1.806 ]
+					},
+					"center_point" : [ -3.496555, 166.4107, 7.086926 ],
+					"end_point" : [ -3.497241, 166.4199, 8.746426 ],
+					"rotation_order" : "ZXY"
+				}
+			},
+			{
+				"id" : "lEye",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#lEye",
+				"name" : "lEye",
+				"label" : "Left Eye",
+				"parent" : "#head",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -1.664, -1.568, -0.797 ],
+						"max" : [ 1.296, 1.63, 1.806 ]
+					},
+					"center_point" : [ 3.496608, 166.4104, 7.086842 ],
+					"end_point" : [ 3.497236, 166.4198, 8.746425 ],
+					"rotation_order" : "ZXY"
+				}
+			},
+			{
+				"id" : "upperJaw",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#upperJaw",
+				"name" : "upperJaw",
+				"label" : "Upper Jaw",
+				"parent" : "#head",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -2.897, -2.115, 3.204 ],
+						"max" : [ 2.877, 1.185, 9.156 ]
+					},
+					"center_point" : [ 0.01021844, 161.5415, 0.3954668 ],
+					"end_point" : [ 0.02002316, 161.0397, 9.526899 ],
+					"rotation_order" : "ZYX"
+				}
+			},
+			{
+				"id" : "lowerJaw",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#lowerJaw",
+				"name" : "lowerJaw",
+				"label" : "Lower Jaw",
+				"parent" : "#head",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -2.755, -2.222, 3.936 ],
+						"max" : [ 2.754, 1.665, 9.548 ]
+					},
+					"center_point" : [ -9.904e-05, 161.5188, -0.06747247 ],
+					"end_point" : [ 1.732e-05, 157.3975, 9.172731 ],
+					"rotation_order" : "ZYX"
+				}
+			},
+			{
+				"id" : "tongueBase",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#tongueBase",
+				"name" : "tongueBase",
+				"label" : "Tongue Base",
+				"parent" : "#lowerJaw",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -1.888, -4.668, 0.177 ],
+						"max" : [ 1.889, 0.797, 3.113 ]
+					},
+					"center_point" : [ 2.272e-05, 157.958, 3.659609 ],
+					"end_point" : [ -0.00010584, 158.743, 3.874979 ],
+					"rotation_order" : "ZYX"
+				}
+			},
+			{
+				"id" : "tongue01",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#tongue01",
+				"name" : "tongue01",
+				"label" : "Tongue 01",
+				"parent" : "#tongueBase",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -0.091, -0.091, 0 ],
+						"max" : [ 0.092, 0.092, 0.917 ]
+					},
+					"center_point" : [ -0.00010584, 158.743, 3.874979 ],
+					"end_point" : [ -1.676e-05, 159.1036, 4.717735 ],
+					"rotation_order" : "ZYX"
+				}
+			},
+			{
+				"id" : "tongue02",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#tongue02",
+				"name" : "tongue02",
+				"label" : "Tongue 02",
+				"parent" : "#tongue01",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -0.084, -0.084, 0 ],
+						"max" : [ 0.085, 0.085, 0.853 ]
+					},
+					"center_point" : [ -1.676e-05, 159.1036, 4.717735 ],
+					"end_point" : [ -2.292e-05, 159.2364, 5.560009 ],
+					"rotation_order" : "ZYX"
+				}
+			},
+			{
+				"id" : "tongue03",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#tongue03",
+				"name" : "tongue03",
+				"label" : "Tongue 03",
+				"parent" : "#tongue02",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -0.083, -0.083, 0 ],
+						"max" : [ 0.084, 0.084, 0.842 ]
+					},
+					"center_point" : [ -2.292e-05, 159.2364, 5.560009 ],
+					"end_point" : [ 5.448e-05, 159.2501, 6.402015 ],
+					"rotation_order" : "ZYX"
+				}
+			},
+			{
+				"id" : "tongue04",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#tongue04",
+				"name" : "tongue04",
+				"label" : "Tongue 04",
+				"parent" : "#tongue03",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -0.07, -0.07, 0 ],
+						"max" : [ 0.071, 0.071, 0.713 ]
+					},
+					"center_point" : [ 5.448e-05, 159.2501, 6.402015 ],
+					"end_point" : [ 1.028e-05, 159.2329, 7.114983 ],
+					"rotation_order" : "ZYX"
+				}
+			},
+			{
+				"id" : "tongue05",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#tongue05",
+				"name" : "tongue05",
+				"label" : "Tongue 05",
+				"parent" : "#tongue04",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -0.066, -0.066, 0 ],
+						"max" : [ 0.067, 0.067, 0.672 ]
+					},
+					"center_point" : [ 1.028e-05, 159.2329, 7.114983 ],
+					"end_point" : [ -0.00035392, 159.1915, 7.785304 ],
+					"rotation_order" : "ZYX"
+				}
+			},
+			{
+				"id" : "tongueTip",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#tongueTip",
+				"name" : "tongueTip",
+				"label" : "Tongue Tip",
+				"parent" : "#tongue05",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -0.074, -0.074, 0 ],
+						"max" : [ 0.075, 0.075, 0.754 ]
+					},
+					"center_point" : [ -0.00035392, 159.1915, 7.785304 ],
+					"end_point" : [ -4.8e-07, 159.3071, 8.530521 ],
+					"rotation_order" : "ZYX"
+				}
+			},
+			{
+				"id" : "rCollar",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#rCollar",
+				"name" : "rCollar",
+				"label" : "Right Collar",
+				"parent" : "#chest",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -26.586, -12.769, -8.4 ],
+						"max" : [ -9.234, 1.47, 6.936 ]
+					},
+					"center_point" : [ -1.668032, 144.6685, 0.3708887 ],
+					"end_point" : [ -13.5224, 146.8958, -3.755574 ],
+					"rotation_order" : "XYZ"
+				}
+			},
+			{
+				"id" : "rShldr",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#rShldr",
+				"name" : "rShldr",
+				"label" : "Right Shoulder",
+				"parent" : "#rCollar",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -36.51, -4.76, -5.373 ],
+						"max" : [ -12.983, 3.796, 4.702 ]
+					},
+					"center_point" : [ -13.55867, 143.6397, -4.675853 ],
+					"end_point" : [ -43.40746, 142.4479, -2.25496 ],
+					"rotation_order" : "XYZ"
+				}
+			},
+			{
+				"id" : "rForeArm",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#rForeArm",
+				"name" : "rForeArm",
+				"label" : "Right ForeArm",
+				"parent" : "#rShldr",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -22.79, -3.826, -4.372 ],
+						"max" : [ -3.303, 3.8, 3.384 ]
+					},
+					"center_point" : [ -43.40746, 142.4479, -2.25496 ],
+					"end_point" : [ -63.54964, 142.5141, 7.687548 ],
+					"rotation_order" : "XZY"
+				}
+			},
+			{
+				"id" : "rHand",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#rHand",
+				"name" : "rHand",
+				"label" : "Right Hand",
+				"parent" : "#rForeArm",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -10.072, -2.568, -3.939 ],
+						"max" : [ 1.374, 2.49, 4.704 ]
+					},
+					"center_point" : [ -64.2884, 142.4962, 8.145249 ],
+					"end_point" : [ -68.64826, 142.8616, 10.30632 ],
+					"rotation_order" : "XYZ"
+				}
+			},
+			{
+				"id" : "rThumb1",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#rThumb1",
+				"name" : "rThumb1",
+				"label" : "Right Thumb 1",
+				"parent" : "#rHand",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -4.67, -2.199, -2.509 ],
+						"max" : [ 0.057, 2.323, 2.62 ]
+					},
+					"center_point" : [ -65.44846, 142.2767, 11.19172 ],
+					"end_point" : [ -65.61684, 141.5275, 15.42173 ],
+					"rotation_order" : "XZY"
+				}
+			},
+			{
+				"id" : "rThumb2",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#rThumb2",
+				"name" : "rThumb2",
+				"label" : "Right Thumb 2",
+				"parent" : "#rThumb1",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -2.918, -1.434, -1.23 ],
+						"max" : [ 0.235, 1.031, 1.106 ]
+					},
+					"center_point" : [ -65.61684, 141.5275, 15.42173 ],
+					"end_point" : [ -66.94344, 140.8543, 17.95239 ],
+					"rotation_order" : "XZY"
+				}
+			},
+			{
+				"id" : "rThumb3",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#rThumb3",
+				"name" : "rThumb3",
+				"label" : "Right Thumb 3",
+				"parent" : "#rThumb2",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -2.894, -1.125, -1.15 ],
+						"max" : [ 0.272, 0.947, 0.879 ]
+					},
+					"center_point" : [ -66.94344, 140.8543, 17.95239 ],
+					"end_point" : [ -67.94289, 140.532, 20.64567 ],
+					"rotation_order" : "XZY"
+				}
+			},
+			{
+				"id" : "rCarpal1",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#rCarpal1",
+				"name" : "rCarpal1",
+				"label" : "Right Carpal 1",
+				"parent" : "#rHand",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -65.64075, 143.2577, 10.30623 ],
+					"end_point" : [ -71.70837, 143.448, 14.23834 ],
+					"rotation_order" : "XYZ"
+				}
+			},
+			{
+				"id" : "rIndex1",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#rIndex1",
+				"name" : "rIndex1",
+				"label" : "Right Index 1",
+				"parent" : "#rCarpal1",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -3.619, -1.05, -0.887 ],
+						"max" : [ -0.765, 1.041, 1.119 ]
+					},
+					"center_point" : [ -70.42691, 143.7592, 14.61322 ],
+					"end_point" : [ -73.35289, 143.5782, 16.90439 ],
+					"rotation_order" : "XYZ"
+				}
+			},
+			{
+				"id" : "rIndex2",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#rIndex2",
+				"name" : "rIndex2",
+				"label" : "Right Index 2",
+				"parent" : "#rIndex1",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -1.97, -1.178, -0.853 ],
+						"max" : [ 0.047, 0.561, 0.977 ]
+					},
+					"center_point" : [ -73.26698, 143.8532, 16.76314 ],
+					"end_point" : [ -75.1433, 143.1968, 18.23364 ],
+					"rotation_order" : "XYZ"
+				}
+			},
+			{
+				"id" : "rIndex3",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#rIndex3",
+				"name" : "rIndex3",
+				"label" : "Right Index 3",
+				"parent" : "#rIndex2",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -2.466, -0.892, -0.722 ],
+						"max" : [ 0.258, 0.462, 0.832 ]
+					},
+					"center_point" : [ -74.90647, 143.3252, 17.9838 ],
+					"end_point" : [ -76.86803, 142.6963, 19.49958 ],
+					"rotation_order" : "XYZ"
+				}
+			},
+			{
+				"id" : "rMid1",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#rMid1",
+				"name" : "rMid1",
+				"label" : "Right Mid 1",
+				"parent" : "#rCarpal1",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -4.316, -1.041, -0.895 ],
+						"max" : [ -0.762, 1.139, 1.057 ]
+					},
+					"center_point" : [ -71.76446, 143.6292, 12.811 ],
+					"end_point" : [ -75.46011, 143.6249, 14.77982 ],
+					"rotation_order" : "XYZ"
+				}
+			},
+			{
+				"id" : "rMid2",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#rMid2",
+				"name" : "rMid2",
+				"label" : "Right Mid 2",
+				"parent" : "#rMid1",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -2.333, -0.987, -0.919 ],
+						"max" : [ -0.231, 0.738, 0.929 ]
+					},
+					"center_point" : [ -75.23792, 143.6735, 14.6616 ],
+					"end_point" : [ -77.32946, 143.2138, 15.9397 ],
+					"rotation_order" : "XYZ"
+				}
+			},
+			{
+				"id" : "rMid3",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#rMid3",
+				"name" : "rMid3",
+				"label" : "Right Mid 3",
+				"parent" : "#rMid2",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -2.595, -0.883, -0.869 ],
+						"max" : [ 0.27, 0.54, 0.761 ]
+					},
+					"center_point" : [ -77.32946, 143.2138, 15.9397 ],
+					"end_point" : [ -79.54414, 142.7327, 17.12207 ],
+					"rotation_order" : "XYZ"
+				}
+			},
+			{
+				"id" : "rCarpal2",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#rCarpal2",
+				"name" : "rCarpal2",
+				"label" : "Right Carpal 2",
+				"parent" : "#rHand",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -66.84979, 142.7681, 8.157658 ],
+					"end_point" : [ -73.39899, 142.2283, 10.1493 ],
+					"rotation_order" : "XYZ"
+				}
+			},
+			{
+				"id" : "rRing1",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#rRing1",
+				"name" : "rRing1",
+				"label" : "Right Ring 1",
+				"parent" : "#rCarpal2",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -3.573, -1.072, -1.057 ],
+						"max" : [ -0.669, 0.945, 0.891 ]
+					},
+					"center_point" : [ -72.39316, 142.9165, 10.93656 ],
+					"end_point" : [ -75.70564, 142.5907, 12.13476 ],
+					"rotation_order" : "XYZ"
+				}
+			},
+			{
+				"id" : "rRing2",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#rRing2",
+				"name" : "rRing2",
+				"label" : "Right Ring 2",
+				"parent" : "#rRing1",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -1.832, -1.129, -0.885 ],
+						"max" : [ 0.13, 0.497, 0.857 ]
+					},
+					"center_point" : [ -75.79526, 142.7371, 12.16318 ],
+					"end_point" : [ -77.81748, 142.1049, 13.08694 ],
+					"rotation_order" : "XYZ"
+				}
+			},
+			{
+				"id" : "rRing3",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#rRing3",
+				"name" : "rRing3",
+				"label" : "Right Ring 3",
+				"parent" : "#rRing2",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -2.44, -0.984, -0.782 ],
+						"max" : [ 0.355, 0.341, 0.738 ]
+					},
+					"center_point" : [ -77.68255, 142.301, 12.99672 ],
+					"end_point" : [ -79.69341, 141.6754, 14.04802 ],
+					"rotation_order" : "XYZ"
+				}
+			},
+			{
+				"id" : "rPinky1",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#rPinky1",
+				"name" : "rPinky1",
+				"label" : "Right Pinky 1",
+				"parent" : "#rCarpal2",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -2.932, -1.002, -0.657 ],
+						"max" : [ -0.883, 0.878, 0.819 ]
+					},
+					"center_point" : [ -72.41306, 141.7776, 8.965582 ],
+					"end_point" : [ -75.11708, 141.5199, 9.702656 ],
+					"rotation_order" : "XYZ"
+				}
+			},
+			{
+				"id" : "rPinky2",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#rPinky2",
+				"name" : "rPinky2",
+				"label" : "Right Pinky 2",
+				"parent" : "#rPinky1",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -1.591, -0.929, -0.675 ],
+						"max" : [ 0.065, 0.465, 0.733 ]
+					},
+					"center_point" : [ -75.11708, 141.5199, 9.702656 ],
+					"end_point" : [ -76.59519, 140.8917, 10.35749 ],
+					"rotation_order" : "XYZ"
+				}
+			},
+			{
+				"id" : "rPinky3",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#rPinky3",
+				"name" : "rPinky3",
+				"label" : "Right Pinky 3",
+				"parent" : "#rPinky2",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -2.033, -0.864, -0.623 ],
+						"max" : [ 0.263, 0.289, 0.642 ]
+					},
+					"center_point" : [ -76.60817, 141.0497, 10.29059 ],
+					"end_point" : [ -78.32282, 140.3106, 11.00688 ],
+					"rotation_order" : "XYZ"
+				}
+			},
+			{
+				"id" : "lCollar",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#lCollar",
+				"name" : "lCollar",
+				"label" : "Left Collar",
+				"parent" : "#chest",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ 9.235, -12.767, -8.4 ],
+						"max" : [ 26.587, 1.472, 6.936 ]
+					},
+					"center_point" : [ 1.668345, 144.6669, 0.3708243 ],
+					"end_point" : [ 13.52264, 146.8949, -3.755532 ],
+					"rotation_order" : "XYZ"
+				}
+			},
+			{
+				"id" : "lShldr",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#lShldr",
+				"name" : "lShldr",
+				"label" : "Left Shoulder",
+				"parent" : "#lCollar",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ 12.984, -4.76, -5.373 ],
+						"max" : [ 36.51, 3.796, 4.702 ]
+					},
+					"center_point" : [ 13.55903, 143.6398, -4.675942 ],
+					"end_point" : [ 43.40777, 142.4475, -2.25515 ],
+					"rotation_order" : "XYZ"
+				}
+			},
+			{
+				"id" : "lForeArm",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#lForeArm",
+				"name" : "lForeArm",
+				"label" : "Left ForeArm",
+				"parent" : "#lShldr",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ 3.304, -3.826, -4.372 ],
+						"max" : [ 22.791, 3.8, 3.385 ]
+					},
+					"center_point" : [ 43.40777, 142.4475, -2.25515 ],
+					"end_point" : [ 63.54975, 142.5145, 7.6875 ],
+					"rotation_order" : "XZY"
+				}
+			},
+			{
+				"id" : "lHand",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#lHand",
+				"name" : "lHand",
+				"label" : "Left Hand",
+				"parent" : "#lForeArm",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -1.373, -2.568, -3.939 ],
+						"max" : [ 10.073, 2.49, 4.704 ]
+					},
+					"center_point" : [ 64.28806, 142.4961, 8.145205 ],
+					"end_point" : [ 68.64817, 142.8616, 10.30632 ],
+					"rotation_order" : "XYZ"
+				}
+			},
+			{
+				"id" : "lThumb1",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#lThumb1",
+				"name" : "lThumb1",
+				"label" : "Left Thumb 1",
+				"parent" : "#lHand",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -0.056, -2.199, -2.509 ],
+						"max" : [ 4.671, 2.323, 2.62 ]
+					},
+					"center_point" : [ 65.44842, 142.2769, 11.19182 ],
+					"end_point" : [ 65.617, 141.5276, 15.42178 ],
+					"rotation_order" : "XZY"
+				}
+			},
+			{
+				"id" : "lThumb2",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#lThumb2",
+				"name" : "lThumb2",
+				"label" : "Left Thumb 2",
+				"parent" : "#lThumb1",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -0.234, -1.434, -1.23 ],
+						"max" : [ 2.919, 1.031, 1.106 ]
+					},
+					"center_point" : [ 65.617, 141.5276, 15.42178 ],
+					"end_point" : [ 66.94363, 140.8543, 17.95247 ],
+					"rotation_order" : "XZY"
+				}
+			},
+			{
+				"id" : "lThumb3",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#lThumb3",
+				"name" : "lThumb3",
+				"label" : "Left Thumb 3",
+				"parent" : "#lThumb2",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -0.271, -1.125, -1.15 ],
+						"max" : [ 2.895, 0.947, 0.879 ]
+					},
+					"center_point" : [ 66.94363, 140.8543, 17.95247 ],
+					"end_point" : [ 67.94283, 140.5319, 20.64565 ],
+					"rotation_order" : "XZY"
+				}
+			},
+			{
+				"id" : "lCarpal1",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#lCarpal1",
+				"name" : "lCarpal1",
+				"label" : "Left Carpal 1",
+				"parent" : "#lHand",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 65.64104, 143.258, 10.30619 ],
+					"end_point" : [ 71.70837, 143.4477, 14.2383 ],
+					"rotation_order" : "XYZ"
+				}
+			},
+			{
+				"id" : "lIndex1",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#lIndex1",
+				"name" : "lIndex1",
+				"label" : "Left Index 1",
+				"parent" : "#lCarpal1",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ 0.765, -1.05, -0.887 ],
+						"max" : [ 3.62, 1.041, 1.119 ]
+					},
+					"center_point" : [ 70.42712, 143.7591, 14.61329 ],
+					"end_point" : [ 73.35314, 143.5782, 16.90433 ],
+					"rotation_order" : "XYZ"
+				}
+			},
+			{
+				"id" : "lIndex2",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#lIndex2",
+				"name" : "lIndex2",
+				"label" : "Left Index 2",
+				"parent" : "#lIndex1",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -0.046, -1.178, -0.853 ],
+						"max" : [ 1.971, 0.561, 0.977 ]
+					},
+					"center_point" : [ 73.26723, 143.8532, 16.76308 ],
+					"end_point" : [ 75.14353, 143.1968, 18.23368 ],
+					"rotation_order" : "XYZ"
+				}
+			},
+			{
+				"id" : "lIndex3",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#lIndex3",
+				"name" : "lIndex3",
+				"label" : "Left Index 3",
+				"parent" : "#lIndex2",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -0.257, -0.892, -0.722 ],
+						"max" : [ 2.467, 0.462, 0.832 ]
+					},
+					"center_point" : [ 74.90671, 143.3252, 17.98384 ],
+					"end_point" : [ 76.86801, 142.6962, 19.49957 ],
+					"rotation_order" : "XYZ"
+				}
+			},
+			{
+				"id" : "lMid1",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#lMid1",
+				"name" : "lMid1",
+				"label" : "Left Mid 1",
+				"parent" : "#lCarpal1",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ 0.763, -1.042, -0.895 ],
+						"max" : [ 4.317, 1.139, 1.057 ]
+					},
+					"center_point" : [ 71.76453, 143.6295, 12.81109 ],
+					"end_point" : [ 75.46006, 143.6249, 14.77979 ],
+					"rotation_order" : "XYZ"
+				}
+			},
+			{
+				"id" : "lMid2",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#lMid2",
+				"name" : "lMid2",
+				"label" : "Left Mid 2",
+				"parent" : "#lMid1",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ 0.232, -0.987, -0.919 ],
+						"max" : [ 2.334, 0.738, 0.929 ]
+					},
+					"center_point" : [ 75.23788, 143.6735, 14.66157 ],
+					"end_point" : [ 77.32956, 143.2138, 15.93972 ],
+					"rotation_order" : "XYZ"
+				}
+			},
+			{
+				"id" : "lMid3",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#lMid3",
+				"name" : "lMid3",
+				"label" : "Left Mid 3",
+				"parent" : "#lMid2",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -0.269, -0.883, -0.869 ],
+						"max" : [ 2.596, 0.54, 0.761 ]
+					},
+					"center_point" : [ 77.32956, 143.2138, 15.93972 ],
+					"end_point" : [ 79.54415, 142.7326, 17.12207 ],
+					"rotation_order" : "XYZ"
+				}
+			},
+			{
+				"id" : "lCarpal2",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#lCarpal2",
+				"name" : "lCarpal2",
+				"label" : "Left Carpal 2",
+				"parent" : "#lHand",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 66.8495, 142.7676, 8.157852 ],
+					"end_point" : [ 73.39903, 142.2283, 10.1493 ],
+					"rotation_order" : "XYZ"
+				}
+			},
+			{
+				"id" : "lRing1",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#lRing1",
+				"name" : "lRing1",
+				"label" : "Left Ring 1",
+				"parent" : "#lCarpal2",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ 0.67, -1.072, -1.056 ],
+						"max" : [ 3.574, 0.945, 0.891 ]
+					},
+					"center_point" : [ 72.39378, 142.9164, 10.93645 ],
+					"end_point" : [ 75.70536, 142.5907, 12.13482 ],
+					"rotation_order" : "XYZ"
+				}
+			},
+			{
+				"id" : "lRing2",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#lRing2",
+				"name" : "lRing2",
+				"label" : "Left Ring 2",
+				"parent" : "#lRing1",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -0.129, -1.129, -0.885 ],
+						"max" : [ 1.834, 0.498, 0.857 ]
+					},
+					"center_point" : [ 75.79498, 142.7371, 12.16324 ],
+					"end_point" : [ 77.81744, 142.1049, 13.08695 ],
+					"rotation_order" : "XYZ"
+				}
+			},
+			{
+				"id" : "lRing3",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#lRing3",
+				"name" : "lRing3",
+				"label" : "Left Ring 3",
+				"parent" : "#lRing2",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -0.354, -0.984, -0.782 ],
+						"max" : [ 2.441, 0.341, 0.738 ]
+					},
+					"center_point" : [ 77.68251, 142.301, 12.99673 ],
+					"end_point" : [ 79.69339, 141.6753, 14.04802 ],
+					"rotation_order" : "XYZ"
+				}
+			},
+			{
+				"id" : "lPinky1",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#lPinky1",
+				"name" : "lPinky1",
+				"label" : "Left Pinky 1",
+				"parent" : "#lCarpal2",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ 0.884, -1.002, -0.657 ],
+						"max" : [ 2.933, 0.878, 0.819 ]
+					},
+					"center_point" : [ 72.41283, 141.7774, 8.965579 ],
+					"end_point" : [ 75.1171, 141.52, 9.702688 ],
+					"rotation_order" : "XYZ"
+				}
+			},
+			{
+				"id" : "lPinky2",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#lPinky2",
+				"name" : "lPinky2",
+				"label" : "Left Pinky 2",
+				"parent" : "#lPinky1",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -0.064, -0.929, -0.675 ],
+						"max" : [ 1.592, 0.465, 0.733 ]
+					},
+					"center_point" : [ 75.1171, 141.52, 9.702688 ],
+					"end_point" : [ 76.59534, 140.8918, 10.35749 ],
+					"rotation_order" : "XYZ"
+				}
+			},
+			{
+				"id" : "lPinky3",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#lPinky3",
+				"name" : "lPinky3",
+				"label" : "Left Pinky 3",
+				"parent" : "#lPinky2",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -0.262, -0.864, -0.623 ],
+						"max" : [ 2.034, 0.289, 0.642 ]
+					},
+					"center_point" : [ 76.60832, 141.0498, 10.29058 ],
+					"end_point" : [ 78.32287, 140.3107, 11.00688 ],
+					"rotation_order" : "XYZ"
+				}
+			},
+			{
+				"id" : "rPectoral",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#rPectoral",
+				"name" : "rPectoral",
+				"label" : "Right Pectoral",
+				"parent" : "#chest",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -6.752, -3.735, 13.345 ],
+						"max" : [ 6.439, 8.325, 19.759 ]
+					},
+					"center_point" : [ -2.964526, 128.834, -6.518506 ],
+					"end_point" : [ -9.816968, 131.9791, 11.13317 ],
+					"rotation_order" : "ZYX"
+				}
+			},
+			{
+				"id" : "lPectoral",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#lPectoral",
+				"name" : "lPectoral",
+				"label" : "Left Pectoral",
+				"parent" : "#chest",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -6.436, -3.736, 13.346 ],
+						"max" : [ 6.755, 8.324, 19.759 ]
+					},
+					"center_point" : [ 2.962967, 128.8354, -6.518791 ],
+					"end_point" : [ 9.816997, 131.9789, 11.13317 ],
+					"rotation_order" : "ZYX"
+				}
+			}
+		],
+		"modifiers" : [
+			{
+				"id" : "PHMNoseTipWidth",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/DAZ%203D/Evolution%20Head/PHMNoseTipWidth.dsf#PHMNoseTipWidth",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : -0.6451613,
+					"current_value" : -0.6451613
+				}
+			},
+			{
+				"id" : "PBMSYASNose01",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/SickleYield/FacesOfAsia/PBMSYASNose01.dsf#PBMSYASNose01",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : 0.5,
+					"current_value" : 0.5
+				}
+			},
+			{
+				"id" : "G1_A5AnimeJaw",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/D3D%20Gen%20X/Genesis/G1_A5AnimeJaw.dsf#G1_A5AnimeJaw",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : -1,
+					"current_value" : -1
+				}
+			},
+			{
+				"id" : "G1_TurnedUpNose_head",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/D3D%20Gen%20X/Genesis/G1_TurnedUpNose_head.dsf#G1_TurnedUpNose_head",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : 0.3467337,
+					"current_value" : 0.3467337
+				}
+			},
+			{
+				"id" : "G1_PHMHitomiLowerFaceSmaller",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/D3D%20Gen%20X/Genesis/G1_PHMHitomiLowerFaceSmaller.dsf#G1_PHMHitomiLowerFaceSmaller",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : 0.298995,
+					"current_value" : 0.298995
+				}
+			},
+			{
+				"id" : "G1_Jaw Corner Slim",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/D3D%20Gen%20X/Genesis/G1_Jaw%20Corner%20Slim.dsf#G1_Jaw%20Corner%20Slim",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : 0.25,
+					"current_value" : 0.25
+				}
+			},
+			{
+				"id" : "PHMJawCurve",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/DAZ%203D/Evolution%20Head/PHMJawCurve.dsf#PHMJawCurve",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"probability" : 0.40,
+					"value" : -0.5,
+					"current_value" : -0.5
+				}
+			},
+			{
+				"id" : "Short Jaw",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/Yasuhiro%20Kojima/Short%20Jaw.dsf#Short%20Jaw",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : 0.2,
+					"current_value" : 0.2
+				}
+			},
+			{
+				"id" : "Jaw In-Out",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/Yasuhiro%20Kojima/Jaw%20In-Out.dsf#Jaw%20In-Out",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : -0.65,
+					"current_value" : -0.65
+				}
+			},
+			{
+				"id" : "Eyes Squint",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/Yasuhiro%20Kojima/Eyes%20Squint.dsf#Eyes%20Squint",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"probability" : 0.20,
+					"value" : 0.5,
+					"current_value" : 0.5
+				}
+			},
+			{
+				"id" : "Brow Up",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/Yasuhiro%20Kojima/Brow%20Up.dsf#Brow%20Up",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : -0.4,
+					"current_value" : -0.4
+				}
+			},
+			{
+				"id" : "Brow Outer Up",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/Yasuhiro%20Kojima/Brow%20Outer%20Up.dsf#Brow%20Outer%20Up",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : 1.0,
+					"current_value" : 1.0
+				}
+			},
+			{
+				"id" : "Brow Outer Down",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/Yasuhiro%20Kojima/Brow%20Outer%20Down.dsf#Brow%20Outer%20Down",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : 1.0,
+					"current_value" : 1.0
+				}
+			},
+			{
+				"id" : "Brow Inner Up",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/Yasuhiro%20Kojima/Brow%20Inner%20Up.dsf#Brow%20Inner%20Up",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : 0.4,
+					"current_value" : 0.4
+				}
+			},
+			{
+				"id" : "Norma",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/Silver/Norma/Norma.dsf#Norma",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : 0.6021506,
+					"current_value" : 0.6021506
+				}
+			},
+			{
+				"id" : "PBMSYFASLips06",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/SickleYield/FacesOfAsia/PBMSYFASLips06.dsf#PBMSYFASLips06",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"probability" : 0.6,
+					"value" : 0.4,
+					"current_value" : 0.4
+				}
+			},
+			{
+				"id" : "PBMSYFASLips04",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/SickleYield/FacesOfAsia/PBMSYFASLips04.dsf#PBMSYFASLips04",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"probability" : 0.6,
+					"value" : 0.4,
+					"current_value" : 0.4
+				}
+			},
+			{
+				"id" : "PBMSYFASLips03",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/SickleYield/FacesOfAsia/PBMSYFASLips03.dsf#PBMSYFASLips03",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"probability" : 0.6,
+					"value" : 0.4,
+					"current_value" : 0.4
+				}
+			},
+			{
+				"id" : "PBMSYFASFaceShape04",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/SickleYield/FacesOfAsia/PBMSYFASFaceShape04.dsf#PBMSYFASFaceShape04",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"probability" : 0.75,
+					"value" : -0.5,
+					"current_value" : -0.5
+				}
+			},
+			{
+				"id" : "PBMSYFASFaceShape08",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/SickleYield/FacesOfAsia/PBMSYFASFaceShape08.dsf#PBMSYFASFaceShape08",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"probability" : 0.20,
+					"value" : 0.50,
+					"current_value" : 0.50
+				}
+			},
+			{
+				"id" : "PBMSYFASFaceShape06",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/SickleYield/FacesOfAsia/PBMSYFASFaceShape06.dsf#PBMSYFASFaceShape06",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"probability" : 0.20,
+					"value" : 0.50,
+					"current_value" : 0.50
+				}
+			},
+			{
+				"id" : "PBMSYFASFaceShape05",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/SickleYield/FacesOfAsia/PBMSYFASFaceShape05.dsf#PBMSYFASFaceShape05",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"probability" : 0.20,
+					"value" : 0.3,
+					"current_value" : 0.3
+				}
+			},
+			{
+				"id" : "PBMSYFASFaceShape02",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/SickleYield/FacesOfAsia/PBMSYFASFaceShape02.dsf#PBMSYFASFaceShape02",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"probability" : 0.20,
+					"value" : 0.50,
+					"current_value" : 0.50
+				}
+			},
+			{
+				"id" : "PBMSYFASFaceShape01",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/SickleYield/FacesOfAsia/PBMSYFASFaceShape01.dsf#PBMSYFASFaceShape01",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"probability" : 0.20,
+					"value" : 0.4,
+					"current_value" : 0.4
+				}
+			},
+			{
+				"id" : "PBMSYEpicanthicFold01",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/SickleYield/FacesOfAsia/PBMSYEpicanthicFold01.dsf#PBMSYEpicanthicFold01",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"probability" : 0.50,
+					"value" : 0.5,
+					"current_value" : 0.5
+				}
+			},
+			{
+				"id" : "PBMSYAUnderEye",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/SickleYield/FacesOfAsia/PBMSYAUnderEye.dsf#PBMSYAUnderEye",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : 0.4,
+					"current_value" : 0.4
+				}
+			},
+			{
+				"id" : "PBMSYASOuterEye02",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/SickleYield/FacesOfAsia/PBMSYASOuterEye02.dsf#PBMSYASOuterEye02",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"min" : 0.5,
+					"value" : 1,
+					"current_value" : 1
+				}
+			},
+			{
+				"id" : "PBMSYASNose07",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/SickleYield/FacesOfAsia/PBMSYASNose07.dsf#PBMSYASNose07",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"min" : 0.4,
+					"value" : 0.5,
+					"current_value" : 0.5
+				}
+			},
+			{
+				"id" : "PearlFace",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/Michelle/Pearl/PearlFace.dsf#PearlFace",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"probability" : 0.70,
+					"value" : 0.6,
+					"current_value" : 0.6
+				}
+			},
+			{
+				"id" : "PHMNoseSize",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/DAZ%203D/Evolution%20Head/PHMNoseSize.dsf#PHMNoseSize",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"min" : -0.5,
+					"value" : 0.3,
+					"current_value" : 0.3
+				}
+			},
+			{
+				"id" : "PHMNoseBridgeDepth",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/DAZ%203D/Evolution%20Head/PHMNoseBridgeDepth.dsf#PHMNoseBridgeDepth",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : -0.8,
+					"current_value" : -0.8
+				}
+			},
+			{
+				"id" : "PHMMouthHeight",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/DAZ%203D/Evolution%20Head/PHMMouthHeight.dsf#PHMMouthHeight",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"probability" : 0.5,
+					"value" : 0.5,
+					"current_value" : 0.5
+				}
+			},
+			{
+				"id" : "PHMLipUpperCurves",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/DAZ%203D/Evolution%20Head/PHMLipUpperCurves.dsf#PHMLipUpperCurves",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : -0.6,
+					"current_value" : -0.6
+				}
+			},
+			{
+				"id" : "PHMLacrimalsPinch",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/DAZ%203D/Evolution%20Head/PHMLacrimalsPinch.dsf#PHMLacrimalsPinch",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"probability" : 0.5,
+					"value" : -1,
+					"current_value" : -1
+				}
+			},
+			{
+				"id" : "PHMJawLineDepth",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/DAZ%203D/Evolution%20Head/PHMJawLineDepth.dsf#PHMJawLineDepth",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : -0.2,
+					"current_value" : -0.2
+				}
+			},
+			{
+				"id" : "PHMJawDefine",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/DAZ%203D/Evolution%20Head/PHMJawDefine.dsf#PHMJawDefine",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : 1,
+					"current_value" : 1
+				}
+			},
+			{
+				"id" : "PHMJawAngle",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/DAZ%203D/Evolution%20Head/PHMJawAngle.dsf#PHMJawAngle",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : 0.6,
+					"current_value" : 0.6
+				}
+			},
+			{
+				"id" : "PHMForeheadFlat",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/DAZ%203D/Evolution%20Head/PHMForeheadFlat.dsf#PHMForeheadFlat",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : 1,
+					"current_value" : 1
+				}
+			},
+			{
+				"id" : "PHMEyesPuffyUpper",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/DAZ%203D/Evolution%20Head/PHMEyesPuffyUpper.dsf#PHMEyesPuffyUpper",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"probability" : 0.4,
+					"value" : -0.5,
+					"current_value" : -0.5
+				}
+			},
+			{
+				"id" : "PHMEyesIrisSize",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/DAZ%203D/Evolution%20Head/PHMEyesIrisSize.dsf#PHMEyesIrisSize",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : -0.4,
+					"current_value" : -0.4
+				}
+			},
+			{
+				"id" : "PHMEyesHeightOuter",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/DAZ%203D/Evolution%20Head/PHMEyesHeightOuter.dsf#PHMEyesHeightOuter",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"probability": 0.5,
+					"min" : -1.0,
+					"value" : -0.2,
+					"current_value" : -0.2
+				}
+			},
+			{
+				"id" : "PHMEyelidsLowerHeight",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/DAZ%203D/Evolution%20Head/PHMEyelidsLowerHeight.dsf#PHMEyelidsLowerHeight",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : 1,
+					"current_value" : 1
+				}
+			},
+			{
+				"id" : "PHMEyelidsHeavy",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/DAZ%203D/Evolution%20Head/PHMEyelidsHeavy.dsf#PHMEyelidsHeavy",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : 1,
+					"current_value" : 1
+				}
+			},
+			{
+				"id" : "PHMEyelashesCurl",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/DAZ%203D/Evolution%20Head/PHMEyelashesCurl.dsf#PHMEyelashesCurl",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : 1,
+					"current_value" : 1
+				}
+			},
+			{
+				"id" : "PHMEarsDepth",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/DAZ%203D/Evolution%20Head/PHMEarsDepth.dsf#PHMEarsDepth",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : 1,
+					"current_value" : 1
+				}
+			},
+			{
+				"id" : "G1_Small Skull",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/D3D%20Gen%20X/Genesis/G1_Small%20Skull.dsf#G1_Small%20Skull",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : 0.8,
+					"current_value" : 0.8
+				}
+			},
+			{
+				"id" : "G1_Slim Face",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/D3D%20Gen%20X/Genesis/G1_Slim%20Face.dsf#G1_Slim%20Face",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : 1,
+					"current_value" : 1
+				}
+			},
+			{
+				"id" : "G1_PHMNtvAmFemBUpper",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/D3D%20Gen%20X/Genesis/G1_PHMNtvAmFemBUpper.dsf#G1_PHMNtvAmFemBUpper",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : 0.3010752,
+					"current_value" : 0.3010752
+				}
+			},
+			{
+				"id" : "G1_PHMHitomiEyesUpperAngleDown",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/D3D%20Gen%20X/Genesis/G1_PHMHitomiEyesUpperAngleDown.dsf#G1_PHMHitomiEyesUpperAngleDown",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : -0.2,
+					"current_value" : -0.2
+				}
+			},
+			{
+				"id" : "G1_PHMAsianFemaleCLower",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/D3D%20Gen%20X/Genesis/G1_PHMAsianFemaleCLower.dsf#G1_PHMAsianFemaleCLower",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"probability" : 0.4,
+					"value" : 0.3,
+					"current_value" : 0.3
+				}
+			},
+			{
+				"id" : "G1_PHMAsianFemaleAUpper",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/D3D%20Gen%20X/Genesis/G1_PHMAsianFemaleAUpper.dsf#G1_PHMAsianFemaleAUpper",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"probability" : 0.8,
+					"value" : 0.3,
+					"current_value" : 0.3
+				}
+			},
+			{
+				"id" : "G1_PHMAsianFemaleBUpper",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/D3D%20Gen%20X/Genesis/G1_PHMAsianFemaleBUpper.dsf#G1_PHMAsianFemaleBUpper",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"probability" : 0.8,
+					"value" : 0.3,
+					"current_value" : 0.3
+				}
+			},
+			{
+				"id" : "G1_PHMAsianFemaleCLower",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/D3D%20Gen%20X/Genesis/G1_PHMAsianFemaleCLower.dsf#G1_PHMAsianFemaleCLower",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"probability" : 0.8,
+					"value" : 0.3,
+					"current_value" : 0.3
+				}
+			},
+			{
+				"id" : "G1_HighCheekbones_head",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/D3D%20Gen%20X/Genesis/G1_HighCheekbones_head.dsf#G1_HighCheekbones_head",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"probability" : 0.30,
+					"value" : 0.50,
+					"current_value" : 0.50
+				}
+			},
+			{
+				"id" : "G1_CheekBonesForward_head",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/D3D%20Gen%20X/Genesis/G1_CheekBonesForward_head.dsf#G1_CheekBonesForward_head",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+				"probability" : 0.30,
+					"value" : 0.50,
+					"current_value" : 0.50
+				}
+			},
+			{
+				"id" : "G1_Face Flat",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/D3D%20Gen%20X/Genesis/G1_Face%20Flat.dsf#G1_Face%20Flat",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : 0.2043011,
+					"current_value" : 0.2043011
+				}
+			},
+			{
+				"id" : "G1_A5LowFaceDown",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/D3D%20Gen%20X/Genesis/G1_A5LowFaceDown.dsf#G1_A5LowFaceDown",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : -0.2,
+					"current_value" : -0.2
+				}
+			},
+			{
+				"id" : "G1_A5CheeksUpperOut",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/D3D%20Gen%20X/Genesis/G1_A5CheeksUpperOut.dsf#G1_A5CheeksUpperOut",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : 0.4,
+					"current_value" : 0.4
+				}
+			},
+			{
+				"id" : "G1_A5CheekSmooth2",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/D3D%20Gen%20X/Genesis/G1_A5CheekSmooth2.dsf#G1_A5CheekSmooth2",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : 0.5,
+					"current_value" : 0.5
+				}
+			},
+			{
+				"id" : "G1_A5CheekSmooth",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/D3D%20Gen%20X/Genesis/G1_A5CheekSmooth.dsf#G1_A5CheekSmooth",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : 1,
+					"current_value" : 1
+				}
+			},
+			{
+				"id" : "PBMTrapsSize",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/DAZ%203D/Evolution%20Body/PBMTrapsSize.dsf#PBMTrapsSize",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : -0.25,
+					"current_value" : -0.25
+				}
+			},
+			{
+				"id" : "PBMThighsSize",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/DAZ%203D/Evolution%20Body/PBMThighsSize.dsf#PBMThighsSize",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : -0.3,
+					"current_value" : -0.3
+				}
+			},
+			{
+				"id" : "PBMShinsSize",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/DAZ%203D/Evolution%20Body/PBMShinsSize.dsf#PBMShinsSize",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : 0.2,
+					"current_value" : 0.2
+				}
+			},
+			{
+				"id" : "PBMNavel",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/DAZ%203D/Base/PBMNavel.dsf#PBMNavel",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : 1,
+					"current_value" : 1
+				}
+			},
+			{
+				"id" : "G1_UAbdomen Width",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/D3D%20Gen%20X/Genesis/G1_UAbdomen%20Width.dsf#G1_UAbdomen%20Width",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : -0.4,
+					"current_value" : -0.4
+				}
+			},
+			{
+				"id" : "G1_Hip Shape4",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/D3D%20Gen%20X/Genesis/G1_Hip%20Shape4.dsf#G1_Hip%20Shape4",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : -0.4,
+					"current_value" : -0.4
+				}
+			},
+			{
+				"id" : "G1_BF_ChestAreaUp",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/D3D%20Gen%20X/Genesis/G1_BF_ChestAreaUp.dsf#G1_BF_ChestAreaUp",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : 0.7,
+					"current_value" : 0.7
+				}
+			},
+			{
+				"id" : "SkinBinding",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Genesis2Female.dsf#SkinBinding",
+				"parent" : "#Genesis2Female"
+			},
+			{
+				"id" : "CTRLNostrilsHeight",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/DAZ%203D/Evolution%20Head/CTRLNostrilsHeight.dsf#CTRLNostrilsHeight",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "CTRLNostrilsHeight",
+					"value" : 0.5,
+					"current_value" : 0.5
+				}
+			},
+			{
+				"id" : "CTRLJawSize",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/DAZ%203D/Evolution%20Head/CTRLJawSize.dsf#CTRLJawSize",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "CTRLJawSize",
+					"probability" : 0.3,
+					"value" : 0.2,
+					"current_value" : 0.2
+				}
+			},
+			{
+				"id" : "G1_Cheekbones_head",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/D3D%20Gen%20X/Genesis/G1_Cheekbones_head.dsf#G1_Cheekbones_head",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"probability" : 0.4,
+					"value" : 1,
+					"current_value" : 1
+				}
+			},
+			{
+				"id" : "G1_CheekbonesSculpt_head",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/D3D%20Gen%20X/Genesis/G1_CheekbonesSculpt_head.dsf#G1_CheekbonesSculpt_head",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"probability" : 0.3,
+					"value" : 1,
+					"current_value" : 1
+				}
+			},
+			{
+				"id" : "PHMNoseDepth",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/DAZ%203D/Evolution%20Head/PHMNoseDepth.dsf#PHMNoseDepth",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"min" : -0.25,
+					"value" : 0.25,
+					"current_value" : 0.25
+				}
+			},
+			{
+				"id" : "PHMChinDepth",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/DAZ%203D/Evolution%20Head/PHMChinDepth.dsf#PHMChinDepth",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : -1,
+					"current_value" : -1
+				}
+			},
+			{
+				"id" : "CTRLJawHeight",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/DAZ%203D/Evolution%20Head/CTRLJawHeight.dsf#CTRLJawHeight",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "CTRLJawHeight",
+					"min" : -0.7,
+					"value" : -0.3,
+					"current_value" : -0.3
+				}
+			},
+			{
+				"id" : "CTRLJawCornerWidth",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/DAZ%203D/Evolution%20Head/CTRLJawCornerWidth.dsf#CTRLJawCornerWidth",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "CTRLJawCornerWidth",
+					"probability" : 0.25,
+					"value" : 0.5,
+					"current_value" : 0.5
+				}
+			},
+			{
+				"id" : "CTRLEyesWidth",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/DAZ%203D/Evolution%20Head/CTRLEyesWidth.dsf#CTRLEyesWidth",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "CTRLEyesWidth",
+					"probability" : 0.5,
+					"value" : 0.5,
+					"current_value" : 0.5
+				}
+			},
+			{
+				"id" : "CTRLEyesSize",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/DAZ%203D/Evolution%20Head/CTRLEyesSize.dsf#CTRLEyesSize",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "CTRLEyesSize",
+					"min" : -0.4,
+					"value" : -0.2,
+					"current_value" : -0.2
+				}
+			},
+			{
+				"id" : "CTRLEyesDepth",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/DAZ%203D/Evolution%20Head/CTRLEyesDepth.dsf#CTRLEyesDepth",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "CTRLEyesDepth",
+					"value" : -0.6989247,
+					"current_value" : -0.6989247
+				}
+			},
+			{
+				"id" : "CTRLEarsSize",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/DAZ%203D/Evolution%20Head/CTRLEarsSize.dsf#CTRLEarsSize",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "CTRLEarsSize",
+					"value" : 0.3978494,
+					"current_value" : 0.3978494
+				}
+			},
+			{
+				"id" : "CTRLEarsAngle",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/DAZ%203D/Evolution%20Head/CTRLEarsAngle.dsf#CTRLEarsAngle",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "CTRLEarsAngle",
+					"value" : 0.6129032,
+					"current_value" : 0.6129032
+				}
+			},
+			{
+				"id" : "CTRLChinWidth",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/DAZ%203D/Evolution%20Head/CTRLChinWidth.dsf#CTRLChinWidth",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "CTRLChinWidth",
+					"probability": 0.7,
+					"value" : 0.7,
+					"current_value" : 0.7
+				}
+			},
+			{
+				"id" : "CTRLCheekBonesSize",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/DAZ%203D/Evolution%20Head/CTRLCheekBonesSize.dsf#CTRLCheekBonesSize",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "CTRLCheekBonesSize",
+					"value" : -0.5,
+					"current_value" : -0.5
+				}
+			},
+			{
+				"id" : "CTRLBrowWidth",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/DAZ%203D/Evolution%20Head/CTRLBrowWidth.dsf#CTRLBrowWidth",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "CTRLBrowWidth",
+					"value" : 0.3951613,
+					"current_value" : 0.3951613
+				}
+			},
+			{
+				"id" : "CTRLBrowDepth",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/DAZ%203D/Evolution%20Head/CTRLBrowDepth.dsf#CTRLBrowDepth",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "CTRLBrowDepth",
+					"value" : -0.5,
+					"current_value" : -0.5
+				}
+			},
+			{
+				"id" : "Mouth Corner Down",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/Yasuhiro%20Kojima/Mouth%20Corner%20Down.dsf#Mouth%20Corner%20Down",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"probability" : 0.50,
+					"value" : 0.5,
+					"current_value" : 0.5
+				}
+			},
+			{
+				"id" : "PHMNoseRidge",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/DAZ%203D/Evolution%20Head/PHMNoseRidge.dsf#PHMNoseRidge",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"probability" : 0.50,
+					"value" : 1,
+					"current_value" : 1
+				}
+			},
+			{
+				"id" : "PHMNoseBridgeSlope",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/DAZ%203D/Evolution%20Head/PHMNoseBridgeSlope.dsf#PHMNoseBridgeSlope",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"probability" : 0.50,
+					"value" : -0.6774194,
+					"current_value" : -0.6774194
+				}
+			},
+			{
+				"id" : "PHMMouthHeight",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/DAZ%203D/Evolution%20Head/PHMMouthHeight.dsf#PHMMouthHeight",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"probability" : 0.50,
+					"min" : -0.3,
+					"value" : 0.15,
+					"current_value" : 0.15
+				}
+			},
+			{
+				"id" : "PHMMouthDepth",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/DAZ%203D/Evolution%20Head/PHMMouthDepth.dsf#PHMMouthDepth",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"min" : -0.2,
+					"value" : 0.35,
+					"current_value" : 0.35
+				}
+			},
+			{
+				"id" : "PHMEarlobesSize",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/DAZ%203D/Evolution%20Head/PHMEarlobesSize.dsf#PHMEarlobesSize",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : 1,
+					"current_value" : 1
+				}
+			},
+			{
+				"id" : "PHMEarlobesLength",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/DAZ%203D/Evolution%20Head/PHMEarlobesLength.dsf#PHMEarlobesLength",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : 0.3978494,
+					"current_value" : 0.3978494
+				}
+			},
+			{
+				"id" : "G1_TuckMouthCorners_head",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/D3D%20Gen%20X/Genesis/G1_TuckMouthCorners_head.dsf#G1_TuckMouthCorners_head",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"probability" : 0.2,
+					"value" : 0.6,
+					"current_value" : 0.6
+				}
+			},
+			{
+				"id" : "G1_NoseTipBack_head",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/D3D%20Gen%20X/Genesis/G1_NoseTipBack_head.dsf#G1_NoseTipBack_head",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : 0.327957,
+					"current_value" : 0.327957
+				}
+			},
+			{
+				"id" : "G1_MouthCornersUpIn",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/D3D%20Gen%20X/Genesis/G1_MouthCornersUpIn.dsf#G1_MouthCornersUpIn",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : 1,
+					"current_value" : 1
+				}
+			},
+			{
+				"id" : "G1_MouthCenterY",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/D3D%20Gen%20X/Genesis/G1_MouthCenterY.dsf#G1_MouthCenterY",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : 1,
+					"current_value" : 1
+				}
+			},
+			{
+				"id" : "G1_FaceAsian2",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/D3D%20Gen%20X/Genesis/G1_FaceAsian2.dsf#G1_FaceAsian2",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"probability" : 0.3,
+					"value" : 0.4,
+					"current_value" : 0.4
+				}
+			},
+			{
+				"id" : "G1_EyesTogether_head",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/D3D%20Gen%20X/Genesis/G1_EyesTogether_head.dsf#G1_EyesTogether_head",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"probability" : 0.25,
+					"value" : 0.5053763,
+					"current_value" : 0.5053763
+				}
+			},
+			{
+				"id" : "G1_EyesShape1_head",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/D3D%20Gen%20X/Genesis/G1_EyesShape1_head.dsf#G1_EyesShape1_head",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"probability" : 0.25,
+					"value" : 1,
+					"current_value" : 1
+				}
+			},
+			{
+				"id" : "G1_EyeArea",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/D3D%20Gen%20X/Genesis/G1_EyeArea.dsf#G1_EyeArea",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"probability" : 0.50,
+					"value" : -0.5,
+					"current_value" : -0.5
+				}
+			},
+			{
+				"id" : "G1_20sFace_head",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/D3D%20Gen%20X/Genesis/G1_20sFace_head.dsf#G1_20sFace_head",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : 0.4,
+					"current_value" : 0.4
+				}
+			},
+			{
+				"id" : "G1_Nostrils Smooth",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/D3D%20Gen%20X/Genesis/G1_Nostrils%20Smooth.dsf#G1_Nostrils%20Smooth",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"min" : 0.5,
+					"value" : 1,
+					"current_value" : 1
+				}
+			},
+			{
+				"id" : "G1_CheekInnerDefine",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/D3D%20Gen%20X/Genesis/G1_CheekInnerDefine.dsf#G1_CheekInnerDefine",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : 0.7096775,
+					"current_value" : 0.7096775
+				}
+			},
+			{
+				"id" : "G1_Cheek Sag",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/D3D%20Gen%20X/Genesis/G1_Cheek%20Sag.dsf#G1_Cheek%20Sag",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"probability" : 0.60,
+					"value" : 1,
+					"current_value" : 1
+				}
+			},
+			{
+				"id" : "PBMSYEpicanthicFold03",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/SickleYield/FacesOfAsia/PBMSYEpicanthicFold03.dsf#PBMSYEpicanthicFold03",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"probability" : 0.50,
+					"value" : 0.5,
+					"current_value" : 0.5
+				}
+			},
+			{
+				"id" : "PHMEyelidsTopOutHeight",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/DAZ%203D/Evolution%20Head/PHMEyelidsTopOutHeight.dsf#PHMEyelidsTopOutHeight",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"probability" : 0.20,
+					"value" : 1,
+					"current_value" : 1
+				}
+			},
+			{
+				"id" : "PHMEyelashesLength",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/DAZ%203D/Evolution%20Head/PHMEyelashesLength.dsf#PHMEyelashesLength",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"min" : -0.2,
+					"value" : 0.2,
+					"current_value" : 0.2
+				}
+			},
+			{
+				"id" : "G1_AoA Eyelash Top Point Up",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/D3D%20Gen%20X/Genesis/G1_AoA%20Eyelash%20Top%20Point%20Up.dsf#G1_AoA%20Eyelash%20Top%20Point%20Up",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"probability" : 0.50,
+					"value" : -0.5,
+					"current_value" : -0.5
+				}
+			},
+			{
+				"id" : "G1_AoA Eyelash Hide Outer Layer",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/D3D%20Gen%20X/Genesis/G1_AoA%20Eyelash%20Hide%20Outer%20Layer.dsf#G1_AoA%20Eyelash%20Hide%20Outer%20Layer",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"probability" : 0.50,
+					"value" : 0.10,
+					"current_value" : 0.10
+				}
+			},
+			{
+				"id" : "G1_AoA Eyelash Contract",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/D3D%20Gen%20X/Genesis/G1_AoA%20Eyelash%20Contract.dsf#G1_AoA%20Eyelash%20Contract",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"min" : 0.50,
+					"value" : 1,
+					"current_value" : 1
+				}
+			},
+			{
+				"id" : "G1_CheekShapeLowPlump",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/D3D%20Gen%20X/Genesis/G1_CheekShapeLowPlump.dsf#G1_CheekShapeLowPlump",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"probability" : 0.30,
+					"value" : 0.5,
+					"current_value" : 0.5
+				}
+			},
+			{
+				"id" : "G1_Vivid Lip",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/D3D%20Gen%20X/Genesis/G1_Vivid%20Lip.dsf#G1_Vivid%20Lip",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"probability" : 0.30,
+					"value" : 1,
+					"current_value" : 1
+				}
+			},
+			{
+				"id" : "Eyelids Bottom Up",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/Yasuhiro%20Kojima/Eyelids%20Bottom%20Up.dsf#Eyelids%20Bottom%20Up",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"probability" : 0.75,
+					"value" : 1,
+					"current_value" : 1
+				}
+			},
+			{
+				"id" : "Brows Together",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/Yasuhiro%20Kojima//Brows%20Together.dsf#Brows%20Together",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : 0.35,
+					"current_value" : 0.35
+				}
+			},
+			{
+				"id" : "PHMEyelidsFoldDown",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/DAZ%203D/Evolution%20Head/PHMEyelidsFoldDown.dsf#PHMEyelidsFoldDown",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"min" : -0.5,
+					"value" : 0,
+					"current_value" : 0
+				}
+			},
+			{
+				"id" : "PHMEyelidsSmooth",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/DAZ%203D/Evolution%20Head/PHMEyelidsSmooth.dsf#PHMEyelidsSmooth",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : -0.5,
+					"current_value" : -0.5
+				}
+			},
+			{
+				"id" : "G1_InnerEyeLidOpen_head",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/D3D%20Gen%20X/Genesis/G1_InnerEyeLidOpen_head.dsf#G1_InnerEyeLidOpen_head",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"probability" : 0.5,
+					"value" : 0.55,
+					"current_value" : 0.55
+				}
+			},
+			{
+				"id" : "PHMEyelidsBottomOutHeight",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/DAZ%203D/Evolution%20Head/PHMEyelidsBottomOutHeight.dsf#PHMEyelidsBottomOutHeight",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"probability" : 0.5,
+					"min" : -1.0,
+					"value" : 0.0,
+					"current_value" : 0.0
+				}
+			},
+			{
+				"id" : "PHMEyelidsBottomInHeight",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/DAZ%203D/Evolution%20Head/PHMEyelidsBottomInHeight.dsf#PHMEyelidsBottomInHeight",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"probability" : 0.5,
+					"min" : -1.0,
+					"value" : 1.0,
+					"current_value" : 1.0
+				}
+			},
+			{
+				"id" : "G1_UpperLashLength2_head",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/D3D%20Gen%20X/Genesis/G1_UpperLashLength2_head.dsf#G1_UpperLashLength2_head",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : 1,
+					"current_value" : 1
+				}
+			},
+			{
+				"id" : "G1_UpperLashLength1_head",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/D3D%20Gen%20X/Genesis/G1_UpperLashLength1_head.dsf#G1_UpperLashLength1_head",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : 1,
+					"current_value" : 1
+				}
+			},
+			{
+				"id" : "G1_NoseShapeRound_head",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/D3D%20Gen%20X/Genesis/G1_NoseShapeRound_head.dsf#G1_NoseShapeRound_head",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : 1,
+					"current_value" : 1
+				}
+			},
+			{
+				"id" : "G1_NoseFlatNostril",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/D3D%20Gen%20X/Genesis/G1_NoseFlatNostril.dsf#G1_NoseFlatNostril",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : -0.5,
+					"current_value" : -0.5
+				}
+			},
+			{
+				"id" : "Nose Dorsum Wide",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/Yasuhiro%20Kojima//Nose%20Dorsum%20Wide.dsf#Nose%20Dorsum%20Wide",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"min" : 0.5,
+					"value" : 1,
+					"current_value" : 1
+				}
+			},
+			{
+				"id" : "PHMCheekBonesWidth",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/DAZ%203D/Evolution%20Head/PHMCheekBonesWidth.dsf#PHMCheekBonesWidth",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : 0.5,
+					"current_value" : 0.5
+				}
+			},
+			{
+				"id" : "CTRLEyesAlmondOuter",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/DAZ%203D/Evolution%20Head/CTRLEyesAlmondOuter.dsf#CTRLEyesAlmondOuter",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "CTRLEyesAlmondOuter",
+					"probability" : 0.3,
+					"value" : 0.5,
+					"current_value" : 0.5
+				}
+			},
+			{
+				"id" : "CTRLEyesAlmondInner",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/DAZ%203D/Evolution%20Head/CTRLEyesAlmondInner.dsf#CTRLEyesAlmondInner",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "CTRLEyesAlmondInner",
+					"probability" : 0.3,
+					"value" : 0.5,
+					"current_value" : 0.5
+				}
+			},
+			{
+				"id" : "G1_LowerEyelidsFlat_head",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/D3D%20Gen%20X/Genesis/G1_LowerEyelidsFlat_head.dsf#G1_LowerEyelidsFlat_head",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"probability" : 0.3,
+					"value" : 0.5,
+					"current_value" : 0.5
+				}
+			},
+			{
+				"id" : "PHMLipUpperDepth",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/DAZ%203D/Evolution%20Head/PHMLipUpperDepth.dsf#PHMLipUpperDepth",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"probability" : 0.6,
+					"value" : 0.8,
+					"current_value" : 0.8
+				}
+			}
+		]
+	}
+}
