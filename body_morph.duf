@@ -1716,8 +1716,8 @@
 					"id" : "value",
 					"type" : "float",
 					"name" : "Value",
-					"value" : -0.2964824,
-					"current_value" : -0.2964824
+					"value" : -0.3,
+					"current_value" : -0.3
 				}
 			},
 			{
@@ -2307,6 +2307,43 @@
 					"name" : "Value",
 					"value" : 1,
 					"current_value" : 1
+				}
+			},
+			{
+				"id" : "G1_PBMGenitalBulge1",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/D3D%20Gen%20X/Genesis/G1_PBMGenitalBulge1.dsf#G1_PBMGenitalBulge1",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : 0.3,
+					"current_value" : 0.3
+				}
+			},
+			{
+				"id" : "G1_Genital Height",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/D3D%20Gen%20X/Genesis/G1_Genital%20Height.dsf#G1_Genital%20Height",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"min" : -0.3,
+					"value" : 0.3,
+					"current_value" : 0.3
+				}
+			},
+			{
+				"id" : "G1_Genital Size",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/D3D%20Gen%20X/Genesis/G1_Genital%20Size.dsf#G1_Genital%20Size",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : 0.3,
+					"current_value" : 0.3
 				}
 			}
 		]
