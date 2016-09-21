@@ -144,8 +144,8 @@
 					"id" : "value",
 					"type" : "float",
 					"name" : "SCLChestDepth",
-					"value" : -0.2,
-					"current_value" : -0.2
+					"value" : -0.4,
+					"current_value" : -0.4
 				}
 			},
 			{
@@ -168,8 +168,8 @@
 					"id" : "value",
 					"type" : "float",
 					"name" : "SCLPropagatingHead",
-					"value" : -0.06,
-					"current_value" : -0.06
+					"value" : -0.08,
+					"current_value" : -0.08
 				}
 			},
 			{
@@ -194,6 +194,54 @@
 					"name" : "SCLPropagatingFoot",
 					"value" : -0.2,
 					"current_value" : -0.2
+				}
+			},
+			{
+				"id" : "PHMTeethUpperJawSizeHeight",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/DAZ%203D/Base/PHMTeethUpperJawSizeHeight.dsf#PHMTeethUpperJawSizeHeight",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : 1,
+					"current_value" : 1
+				}
+			},
+			{
+				"id" : "PHMTeethUpperJawSizeDepth",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/DAZ%203D/Base/PHMTeethUpperJawSizeDepth.dsf#PHMTeethUpperJawSizeDepth",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : -0.35,
+					"current_value" : -0.35
+				}
+			},
+			{
+				"id" : "PHMTeethLowerJawSizeHeight",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/DAZ%203D/Base/PHMTeethLowerJawSizeHeight.dsf#PHMTeethLowerJawSizeHeight",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : 1,
+					"current_value" : 1
+				}
+			},
+			{
+				"id" : "PHMTeethLowerJawSizeDepth",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/DAZ%203D/Base/PHMTeethLowerJawSizeDepth.dsf#PHMLowerJawSizeDepth",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : -0.35,
+					"current_value" : -0.35
 				}
 			}
 		]

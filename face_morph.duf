@@ -2642,7 +2642,7 @@
 					"id" : "value",
 					"type" : "float",
 					"name" : "Value",
-					"probability" : 0.60,
+					"probability" : 0.75,
 					"value" : 1,
 					"current_value" : 1
 				}
@@ -2733,7 +2733,7 @@
 					"id" : "value",
 					"type" : "float",
 					"name" : "Value",
-					"probability" : 0.30,
+					"probability" : 0.60,
 					"value" : 0.5,
 					"current_value" : 0.5
 				}
@@ -2965,6 +2965,18 @@
 					"probability" : 0.6,
 					"value" : 0.8,
 					"current_value" : 0.8
+				}
+			},
+			{
+				"id" : "Young Cheek 2",
+				"url" : "/data/DAZ%203D/Genesis%202/Female/Morphs/Yasuhiro%20Kojima//Young%20Cheek%202.dsf#Young%20Cheek%202",
+				"parent" : "#Genesis2Female",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"value" : 0.5,
+					"current_value" : 0.5
 				}
 			}
 		]
